@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #eaeaea;
+}
+
+img {
+  width: 1000px;
+  height: 300px;
+  border-radius: 8px;
+}
+
+figure {
+  padding-top: 15px;
+  text-align: center;
+  justify-content: center;
+  color: #1b1b1b;
+}
+
+figcaption {
+  font-family: 'Roboto', sans-serif;
+  text-indent: 48rem;
+}
+
+h2 {
+  text-indent: 600px;
+  color: #1b1b1b;
+}
