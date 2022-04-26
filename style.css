@@ -6,9 +6,21 @@
 }
 
 img {
-  width: 1000px;
-  height: 300px;
-  border-radius: 8px;
+  width: 90%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  margin: 5px;
+}
+
+html {
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+header {
+  color: #1b1b1b;
 }
 
 figure {
@@ -19,11 +31,37 @@ figure {
 }
 
 figcaption {
-  font-family: 'Roboto', sans-serif;
-  text-indent: 48rem;
+  text-indent: 50rem;
+  color: #8f8f8f;
 }
 
 h2 {
+  margin: 2px;
   text-indent: 600px;
   color: #1b1b1b;
+  padding-right: 26px;
+  line-height: 28px;
+  list-style-position: inside;
+}
+
+h3 {
+  text-align: center;
+  justify-content: center;
+}
+
+main {
+  color: #39393a;
+  margin: 5%;
+  font-family: 'Roboto', sans-serif;
+  text-align: match-parent;
+  line-height: 28px;
+  list-style-position: inside;
+}
+
+footer {
+  color: #39393a;
+  text-align: center;
+  justify-content: center;
+  line-height: 28px;
+  list-style-position: inside;
 }
